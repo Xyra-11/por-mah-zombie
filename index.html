@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Por Mah Beybi 🦖</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#d8f3dc,#ffd6e7);
+
+overflow-x:hidden;
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:40px 20px;
+
+}
+
+/* Background */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+inset:0;
+
+background:
+
+radial-gradient(circle at top left,#ffffff55,transparent 30%),
+
+radial-gradient(circle at bottom right,#ffffff66,transparent 30%);
+
+z-index:-2;
+
+}
+
+/* Hearts */
+
+.heart{
+
+position:fixed;
+
+bottom:-40px;
+
+font-size:24px;
+
+animation:float linear infinite;
+
+pointer-events:none;
+
+opacity:.8;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0) rotate(0deg);
+
+opacity:0;
+
+}
+
+20%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-120vh) rotate(360deg);
+
+opacity:0;
+
+}
+
+}
+
+/* Card */
+
+.card{
+
+width:100%;
+
+max-width:700px;
+
+background:rgba(255,255,255,.75);
+
+backdrop-filter:blur(15px);
+
+border-radius:25px;
+
+padding:35px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+animation:fadeIn 1s;
+
+}
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+h1{
+
+font-family:'Dancing Script',cursive;
+
+font-size:55px;
+
+text-align:center;
+
+color:#ff4f87;
+
+margin-bottom:20px;
+
+}
+
+#typing{
+
+white-space:pre-line;
+
+line-height:1.9;
+
+font-size:17px;
+
+color:#555;
+
+margin-top:20px;
+
+}
+
+.gallery{
+
+display:flex;
+
+gap:15px;
+
+margin-top:30px;
+
+overflow-x:auto;
+
+padding-bottom:10px;
+
+}
+
+.gallery img{
+
+width:210px;
+
+height:280px;
+
+border-radius:18px;
+
+object-fit:cover;
+
+flex:none;
+
+box-shadow:0 8px 20px rgba(0,0,0,.18);
+
+transition:.4s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+.music{
+
+display:block;
+
+width:max-content;
+
+margin:30px auto 0;
+
+background:#43a047;
+
+color:white;
+
+text-decoration:none;
+
+padding:15px 28px;
+
+border-radius:40px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.music:hover{
+
+background:#2e7d32;
+
+transform:scale(1.05);
+
+}
+
+.sparkle{
+
+position:fixed;
+
+pointer-events:none;
+
+animation:spark 2s linear forwards;
+
+}
+
+@keyframes spark{
+
+0%{
+
+opacity:1;
+
+transform:scale(.5);
+
+}
+
+100%{
+
+opacity:0;
+
+transform:scale(2);
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Por Mah Beybi 🦖</h1>
+
+<p id="typing"></p>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+
+<img src="images/photo2.jpg">
+
+<img src="images/photo3.jpg">
+
+</div>
+
+<button onclick="window.location.href='https://youtu.be/aJakSXHZROo'">
+Play Song
+</button>
+
+
+</div>
+<script>
+
+const message = `Hi, my beybi. 🩷
+
+Gusto ko lang sabihin kung gano ako ka happy na nahanap ko uli yung daan pabalik satin.
+
+Sa mga araw na dumaan, mas lalo kong naa-appreciate yung pressence mo baby. Thank you sa lahat ng smiles, laugh, at super duper hapi memories.
+
+Hindi man ako perfect, gusto kong malaman mo na totoo yung love at pagpapahalaga ko po sa'yo. Lagi kitang ipagdarasal, susuportahan, at mamahalin hanggang dulo:).
+
+Sana sa tuwing mababasa mo po tong simple website, maalala mong may isang taong sobrang saya dahil naging part ka ng buhay niya.
+Sorry sa pagiging red flag ko minsan, baby. Sorry kung may mga times na nasasaktan kita dahil sa mga ginagawa or nasasabi ko. Hindi ko man laging napapakita nang tama, gusto kong malaman mo na pure at sincere yung intentions ko po sa’yo.
+
+Hindi ko intensyong saktan ka or dagdagan yung bigat ng nararamdaman mo. Alam kong may mga mali akong nagagawa, at gusto kong matuto at magbago para maging mas mabuting partner para por you.
+
+Thank you so much sa patience, pag-intindi, at sa pagmamahal mo sakin beybi. Sana hindi ikaw magsawa or mapagod sakin 
+
+Mahal na mahal kita, baby. Gagawin ko yung best ko para hindi lang puro salita, kundi makita mo rin sa mga actions ko kung gaano kita kamahal. 🩷🦖
+
+Nandito lang ako palagi, baby. Hindi kita basta-basta iiwan. Kahit may mga pagsubok or hindi tayo magkaintindihan minsan, pipiliin kitang samahan at ayusin ang mga bagay sa abot ng makakaya ko. Gusto kong maramdaman mo na hindi ka nag-iisa, dahil lagi akong nandito para po sa’yo.🩷🔥
+
+Ikaw lang beybi at wala ng iba. 🔥🩷`;
+
+let i = 0;
+
+function typeWriter(){
+
+if(i < message.length){
+
+document.getElementById("typing").innerHTML += message.charAt(i);
+
+i++;
+
+setTimeout(typeWriter,35);
+
+}
+
+}
+
+window.onload = typeWriter;
+
+
+// Floating Hearts
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML=Math.random()>.5?"💚":"🩷";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.fontSize=(18+Math.random()*22)+"px";
+
+heart.style.animationDuration=(5+Math.random()*5)+"s";
+
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},10000);
+
+}
+
+setInterval(createHeart,500);
+
+
+// Sparkles
+
+function sparkle(){
+
+const s=document.createElement("div");
+
+s.className="sparkle";
+
+s.innerHTML="✨";
+
+s.style.left=Math.random()*100+"vw";
+
+s.style.top=Math.random()*100+"vh";
+
+s.style.fontSize=(10+Math.random()*20)+"px";
+
+document.body.appendChild(s);
+
+setTimeout(()=>{
+
+s.remove();
+
+},2000);
+
+}
+
+setInterval(sparkle,700);
+
+</script>
+
+</body>
+</html>
